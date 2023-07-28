@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #121212;
+    color: blue;
+    gap: 2rem;
+    padding: 2% 4%;
+}
+.div1>:nth-child(1){
+    color: var(--primary-color, #228C22);
+text-align: center;
+font-family: K2D;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+}
+.div2>img{
+    height: 350px;
+    width: 350px;
+}
+.div2>:nth-child(2){
+    transform: scale(1.1);
+}
