@@ -13,9 +13,22 @@ const Services = () => {
 
 
         <div className={css.div2}>
-            <img src={S1} alt="" />
-            <img src={S2} alt="" />
-            <img src={S3} alt="" />
+            <div className={css.sub}> 
+             <img src={S1} alt="" /> 
+            <span>Design</span>
+            </div>
+            <div className={css.sub2}> 
+             <img className={css.middle} src={S2} alt="" /> 
+            <span>Planning</span>
+            </div>
+            <div className={css.sub}> 
+             <img src={S3} alt="" /> 
+            <span>Execution</span>
+            </div>
+           
+            
+
+        
         </div>
       
     </div>
