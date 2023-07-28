@@ -1,0 +1,42 @@
+.container{
+    padding-top: 4rem;
+    height: 100vh;
+    background: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+.div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.div2>:nth-child(1){
+    color: var(--primary-color, #228C22);
+font-family: K2D;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.div2>:nth-child(2){
+    color: var(--primary-color, #228C22);
+font-family: Quantico;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.div3>:nth-child(1){
+    color: var(--grey-tone-g-3, #B3B3B3);
+font-family: SansSerif;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
