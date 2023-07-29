@@ -2,10 +2,11 @@
     background: #121212;
     display: flex;
     flex-direction: column;
+    gap: 1.1rem;
     align-items: center;
     justify-content: center;
-   
     color: #228C22;
+    padding: 2% 0%;
 }
 
 .div1>:nth-child(1){

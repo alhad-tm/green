@@ -16,8 +16,9 @@ function App() {
       <Main/>
       <About/>
       <Services/>
-      <Poster/>
       <Why/>
+      <Poster/>
+     
       <Contact/>
       <Footer/>
     
