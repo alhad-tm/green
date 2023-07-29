@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+
+.swiper-pagination-bullet{
+  border-radius: 6px !important;
+background: var(--primary-color, #228C22) !important;
+ 
+
+}
