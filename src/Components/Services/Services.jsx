@@ -6,7 +6,7 @@ import S3 from "../../assets/s3.svg"
 
 const Services = () => {
   return (
-    <div className={css.container}>
+    <div className={css.container} id='services'>
         <div className={css.div1}>
             <span>Services</span>
         </div>

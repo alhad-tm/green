@@ -25,3 +25,39 @@ z-index: 2;
     margin-right: 10rem;
     
 }
+
+
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1% 1%;
+    }
+
+ 
+.rightlist{
+    position: absolute;
+    /* border-radius: 10px; */
+background: #262525;
+background-color: black;
+    height: 116px;
+display: flex;
+flex-direction: column;
+right: 17px;
+top: 0;
+gap: 16px;
+font-size: 12px;
+padding: 2% 2%;
+color: gold;
+/* min-width: 100%;
+min-height: 100vh; */
+
+}
+/* .bars{
+    width: 30px;
+    height: 80px;
+    position: absolute;
+} */
+}
