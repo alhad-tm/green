@@ -104,7 +104,7 @@ line-height: 24px; /* 171.429% */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width:50%;
     padding-bottom: 3rem;
     height: 300px;
     padding: 1% 2%;
@@ -113,7 +113,14 @@ line-height: 24px; /* 171.429% */
     .mainbox{
        
         height: 250px;
-        width: 80%;
+        width: 100%;
+    }
+    .box2,.box3,.box4,.box5{
+        width: 100%;
+    }
+    .span1,.span2{
+        font-size: 4px;
+        line-height: normal;
     }
    
 }

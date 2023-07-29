@@ -38,8 +38,8 @@ code {
 
 @media screen and (max-width:768px){
   #myBtn{
-    width: 34px;
-    height: 30px;
+    width: 14px;
+    height: 14px;
     right: 8px;
     padding: 2%;
   }

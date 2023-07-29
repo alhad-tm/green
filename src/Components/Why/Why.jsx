@@ -23,7 +23,7 @@ const Why = () => {
         pagination={true}
         loopFillGroupWithBlank={true}
         slidesPerView={1}
-        spaceBetween={40}
+        spaceBetween={0}
         slidesPerGroup={1}
         loop={true}
  >

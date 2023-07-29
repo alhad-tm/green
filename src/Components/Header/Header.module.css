@@ -55,9 +55,11 @@ color: gold;
 min-height: 100vh; */
 
 }
-/* .bars{
+.bars{
     width: 30px;
     height: 80px;
     position: absolute;
-} */
+    top:0;
+    right: 0;
+}
 }
