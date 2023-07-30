@@ -81,3 +81,11 @@ margin-top: 2rem;
         margin-top: 0;
     }
 }
+@media  screen and (min-width: 769px) and (max-width: 999px){
+    .sub>img{
+       width: 200px;
+    }
+    .middle{
+           width: 200px;
+    }
+}

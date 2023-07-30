@@ -26,7 +26,7 @@
 .inside>:nth-child(2){
     text-align: left;
     color: var(--grey-tone-g-1, #E6E6E6);
-font-family: SansSerif;
+font-family: sans-serif;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
@@ -68,5 +68,11 @@ line-height: 22px; /* 160% */
         font-weight: 400;
         line-height: normal; 
   
+    }
+}
+@media  screen and (min-width: 769px) and (max-width: 999px){
+    .inside>:nth-child(2){
+        font-size: 14px;
+        line-height: 14px;
     }
 }

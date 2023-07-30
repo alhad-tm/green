@@ -62,3 +62,9 @@ line-height: normal;
         font-size: 14px;
     }
 }
+@media  screen and (min-width: 769px) and (max-width: 999px){
+    .div1>img{
+        width: 550px;
+   
+    }
+}

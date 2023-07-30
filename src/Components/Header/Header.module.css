@@ -25,6 +25,10 @@ z-index: 2;
     margin-right: 10rem;
     
 }
+.rightlist>li:hover{
+    cursor: pointer;
+    color: var(--primary-color, #228C22);
+}
 
 
 
@@ -46,7 +50,7 @@ z-index: 2;
     /* border-radius: 10px; */
 background: #262525;
 background-color: black;
-    height: 116px;
+    height: 100px;
 display: flex;
 flex-direction: column;
 right: -142px;
