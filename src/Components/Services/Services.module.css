@@ -66,8 +66,18 @@ margin-top: 2rem;
     .div2{
         display: flex;
         flex-direction: column;
+        gap: 0.8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub>img{
+        height: 266px;
+        width: 266px;
     }
     .middle{
         transform: none;
+    }
+    .sub2>:nth-child(2){
+        margin-top: 0;
     }
 }

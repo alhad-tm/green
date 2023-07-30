@@ -40,11 +40,24 @@ text-align: left;
     .container{
         display: flex;
         flex-direction: column;
+        gap: 1rem;
         width: 100%;
         padding: 0;
+        padding-bottom: 2rem;
     }
     .left{
-        width: 100%;
+        width: 80%;
+    }
+    .leftone{
+        align-items: center;
+    }
+    .leftone>:nth-child(1){
+        font-size: 20px;
+    }
+    .leftone>:nth-child(2){
+        font-size: 14px;
+        text-align: center;
+        align-items: center;
     }
     .right>img{
         width: 100%;

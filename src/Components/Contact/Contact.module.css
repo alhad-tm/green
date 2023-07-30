@@ -74,6 +74,7 @@ line-height: 32px; /* 200% */
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 1rem;
     }
     .div2{
         display: flex;
@@ -85,5 +86,32 @@ line-height: 32px; /* 200% */
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
+    }
+    .div1>:nth-child(1){
+        font-size: 16px;
+        line-height: normal;
+
+    }
+    .div2left>:nth-child(1){
+        font-size: 14px;
+        line-height: 32px;
+        
+    }
+    .div2left>:nth-child(2){
+       font-size: 12px;
+       line-height: 20px;
+       width: 60%;
+    }
+    .div2right>:nth-child(1){
+        font-size: 14px;
+        line-height: 32px;
+        margin-top: 0.5rem;
+        
+    }
+    .div2right>:nth-child(2){
+       font-size: 12px;
+       line-height: 20px;
+       width: 60%;
     }
 }
