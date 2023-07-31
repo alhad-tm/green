@@ -55,9 +55,11 @@ text-align: left;
         font-size: 20px;
     }
     .leftone>:nth-child(2){
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         align-items: center;
+        line-height: 17px;
+        margin-top: 1rem;
     }
     .right>img{
         width: 100%;
