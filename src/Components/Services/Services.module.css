@@ -38,7 +38,7 @@ line-height: normal;
     /* -webkit-transform-origin-y: top; */
 }
 
-.sub>:nth-child(2){
+.sub>:nth-child(3){
     color: var(--grey-tone-g-3, #B3B3B3);
 font-family: K2D;
 font-size: 20px;
@@ -50,9 +50,10 @@ line-height: normal;
 .sub2{
     display: flex;
     flex-direction: column;
+    position: relative;
   
 }
-.sub2>:nth-child(2){
+.sub2>:nth-child(3){
     color: var(--grey-tone-g-3, #B3B3B3);
 font-family: K2D;
 font-size: 20px;
@@ -60,6 +61,57 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top: 2rem;
+}
+.text{
+    position: absolute;
+    visibility: hidden;
+    background: var(--grey-tone-g-9, #191919);
+    height: 280px;
+    width: 240px;
+    font-size: 14px;
+    display: flex;
+    color: var(--grey-tone-g-3, #B3B3B3);
+text-align: center;
+font-family: sans-serif;
+align-items: center;
+padding: 0% 2%;
+
+line-height: 20px;
+}
+.text::before{
+    content: "";
+    position: absolute;
+}
+.sub:hover .text{
+    visibility: visible;
+    cursor: pointer;
+}
+.text2{
+    position: absolute;
+    top: -11px;
+    left: -13px;
+    visibility: hidden;
+    background: var(--grey-tone-g-9, #191919);
+    height: 322px;
+    width: 283px;
+    font-size: 14px;
+    display: flex;
+    color: var(--grey-tone-g-3, #B3B3B3);
+text-align: center;
+font-family: sans-serif;
+align-items: center;
+padding: 0% 2%;
+
+line-height: 20px;
+z-index: 1;
+}
+.text2::before{
+    content: "";
+    position: absolute;
+}
+.sub2:hover .text2{
+    visibility: visible;
+    cursor: pointer;
 }
 
 @media screen and (max-width:768px){
@@ -80,6 +132,11 @@ margin-top: 2rem;
     .sub2>:nth-child(2){
         margin-top: 0;
     }
+    .text{
+        height: 262px;
+        width: 254px;
+        font-size: 12px;
+    }
 }
 @media  screen and (min-width: 769px) and (max-width: 999px){
     .sub>img{
@@ -87,5 +144,15 @@ margin-top: 2rem;
     }
     .middle{
            width: 200px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1000px){
+    .text{
+        width: 205px;
+        font-size: 13px;
+    }
+    .text2{
+        width: 248px;
+        font-size: 13px;
     }
 }
