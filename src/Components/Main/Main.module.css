@@ -44,7 +44,7 @@ line-height: normal;
     .container{
         width: 100%;
         gap: 0rem;
-        height: 455px;
+        /* height: 455px; */
     }
     .div1>img{
         width: 250px;

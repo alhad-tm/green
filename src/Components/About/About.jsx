@@ -7,7 +7,7 @@ const About = () => {
     <div className={css.container} id='about'>
         <div className={css.left}>
 
-            <div className={css.leftone}>
+            {/* <div className={css.leftone}> */}
                 <span>Who We Are !</span>
                 <span>With a rich legacy of 17 years in the construction industry, The Green Castle 
                     stands tall as a distinguished provider of exceptional construction services.
@@ -18,13 +18,13 @@ const About = () => {
  planning, and execution. Whether you aspire to bring your dream home to life, embark on a commercial venture,
   or undertake a renovation project, we possess the expertise and experience
    to transform your dreams into reality.</span>
-            </div>
+            {/* </div> */}
 
         </div>
 
 
         <div className={css.right}>
-            <img src={Who} alt="" />
+            <img src={Who} alt="" />  
         </div>
       
     </div>

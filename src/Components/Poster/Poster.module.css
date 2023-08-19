@@ -16,18 +16,18 @@
     gap: 1rem;
     width: 30%;
     
-    right: 41px;
-    top: 32%;
+    right: 18%;
+    top: 40%;
     
 }
 .inside>img{
-    width: 60px; 
+    width: 50px; 
 }
 .inside>:nth-child(2){
     text-align: left;
     color: var(--grey-tone-g-1, #E6E6E6);
 font-family: sans-serif;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 22px; /* 160% */
