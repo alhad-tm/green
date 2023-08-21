@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     color: #228C22;
-    padding: 2% 0%;
+    padding: 2% 8%;
 }
 
 .div1>:nth-child(1){
@@ -24,7 +24,7 @@ line-height: normal;
     margin-top: 1rem;
 }
 .mainbox{
-    width: 300px;
+    /* width: 100%; */
     height: 520px;
        background-image: url(../../assets/whyus1.svg);
        background-size: cover;
@@ -58,7 +58,7 @@ margin-left: 1rem;
 }
 .box2,.box5{
   
-    width: 307px;
+    width: 100%;
     height: 250px;
     background: var(--grey-tone-g-9, #191919);
     display: flex;
@@ -70,7 +70,7 @@ margin-left: 1rem;
 
 }
 .box4{
-    width: 307px;
+    width: 100%;
     height: 250px;
       background-image: url(../../assets/whyus4.svg);
       background-position: center;
@@ -84,7 +84,7 @@ margin-left: 1rem;
 
 }
 .box3{
-    width: 307px;
+    width: 100%;
     height: 250px;
     background-image: url(../../assets/whyus3.svg);
     background-size: cover;
@@ -107,7 +107,7 @@ margin-left: 1rem;
 
 @media screen and (max-width:768px){
     .container{
-        width: 100%;
+        /* width: 100%; */
     }
     .div1>:nth-child(1){
         font-size: 20px;
@@ -154,7 +154,7 @@ margin-left: 1rem;
    
 }
 
-@media  screen and (min-width: 769px) and (max-width: 999px){
+/* @media  screen and (min-width: 769px) and (max-width: 999px){
     .container{
         width: 100%;
     }
@@ -164,4 +164,4 @@ margin-left: 1rem;
     .box2,.box3,.box4,.box5{
         width: 245px;
     }
-}
+} */

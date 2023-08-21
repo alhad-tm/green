@@ -7,7 +7,7 @@ const Contact = () => {
 
         <div className={css.div1}>
 
-        <span>Contact us now to embark on an extraordinary construction journey with 
+        <span>Contact us now to embark on an extraordinary construction journey with <br />
 The Green Castle!</span>
 
         </div>
@@ -25,7 +25,7 @@ The Green Castle!</span>
 
             <span>Location</span>
             <span>124-H, 3rd Floor, Thendral Complex,
-      DB Road, RS Puram, 
+      DB Road, RS Puram,
              Coimbatore - 641002</span>
 
         </div>
