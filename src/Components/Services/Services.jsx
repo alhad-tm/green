@@ -1,7 +1,7 @@
 import React from 'react'
 import css from "./Services.module.css"
 import S1 from "../../assets/s1.svg"
-import S2 from "../../assets/s2.svg"
+import S2 from "../../assets/s2new.svg"
 import S3 from "../../assets/s3.svg"
 
 const Services = () => {

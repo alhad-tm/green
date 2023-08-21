@@ -12,7 +12,8 @@ const About = () => {
                 <span>With a rich legacy of 17 years in the construction industry, The Green Castle 
                     stands tall as a distinguished provider of exceptional construction services.
                      Our unwavering commitment to excellence and a steadfast dedication to our clients' 
-                     visions have earned us a reputable position in the market. <br />
+                     visions have earned us a reputable position in the market. </span>
+                     <span>
 
       At The Green Castle, we take pride in offering a comprehensive range of services that encompass design,
  planning, and execution. Whether you aspire to bring your dream home to life, embark on a commercial venture,
