@@ -75,7 +75,11 @@ line-height: 32px; /* 200% */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 1.4rem;
+        padding: 8% 4%;
+    }
+    .div1{
+        width: 90%;
     }
     .div2{
         display: flex;
@@ -90,7 +94,7 @@ line-height: 32px; /* 200% */
         align-items: center;
     }
     .div1>:nth-child(1){
-        font-size: 16px;
+        font-size: 14px;
         line-height: normal;
 
     }

@@ -58,6 +58,7 @@ line-height: 32px; /* 160% */
     }
     .inside>img{
         width: 50px; 
+        height: 51px;
     }
     .inside>:nth-child(2){
         color: var(--grey-tone-g-1, #E6E6E6);
@@ -66,7 +67,7 @@ line-height: 32px; /* 160% */
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: normal; 
+        line-height: 22px; 
   
     }
 }

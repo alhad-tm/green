@@ -12,7 +12,7 @@ const Main = () => {
 
         <div className={css.div2}>
             <span>Green Castle</span>
-            <span> Real Estate</span>
+            <span> Realty</span>
         </div>
 
         <div className={css.div3}>
@@ -21,7 +21,7 @@ const Main = () => {
 
       
     </div>
-  )
+  ) 
 }
 
 export default Main
