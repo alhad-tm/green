@@ -1,6 +1,6 @@
 import React from 'react'
 import css from "./Footer.module.css"
-import Logo1 from "../../assets/Green castel logo.svg"
+import Logo1 from "../../assets/Green castel logo new.svg"
 import Twitter from "../../assets/twitter logo.svg"
 import Fb from "../../assets/Facebook logo.svg"
 import Insta from "../../assets/instagram logo.svg"

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import css from "./Header.module.css"
-import Logo1 from "../../assets/Green castel logo.svg"
+import Logo1 from "../../assets/Green castel logo new.svg"
 import Bars from "../../assets/Bars.svg"
 import { Link } from 'react-scroll'
 const Header = () => {
