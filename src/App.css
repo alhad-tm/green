@@ -44,3 +44,12 @@ background: var(--primary-color, #228C22) !important;
  
 
 }
+
+@media screen and (max-width:768px){
+
+  .swiper{
+    width: 84% !important;
+  }
+  
+
+}

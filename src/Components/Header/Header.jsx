@@ -25,7 +25,7 @@ const Header = () => {
         </div>
       ) : (
             <ul className={css.rightlist}>
-                <li><Link to="about" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>About</Link></li>
+                <li><Link to="about" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>About us</Link></li>
                 <li><Link to="services" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Services</Link></li>
                 <li><Link to="contact" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Contact</Link></li>
               

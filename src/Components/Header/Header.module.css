@@ -30,6 +30,7 @@ z-index: 5;
     list-style: none;
     justify-content: space-between;
     gap: 60px;
+    font-family: sans-serif;
     /* margin-right: 10rem; */
     
 }
@@ -45,7 +46,7 @@ z-index: 5;
         display: flex;
         justify-content: space-between;
         /* width: 100%; */
-        padding: 2% 8%;
+        padding: 2% 2%;
         height: 33px;
     }
     .left{

@@ -156,15 +156,17 @@ z-index: 1;
     .div2{
         display: flex;
         flex-direction: column;
-        gap: 0.8rem;
+        gap: 2.6rem;
         align-items: center;
         justify-content: center;
     }
     .sub{
         width: 100%;
+        gap: 0.4rem;
     }
     .sub2{
         width: 100%;
+       
     }
     .sub>img{
         /* height: 266px; */
@@ -177,15 +179,16 @@ z-index: 1;
         
     }
     .sub2>:nth-child(2){
-        margin-top: 0;
+        margin-top: 1rem;
     }
     .text{
-        height: auto;
-        width: 100%;
+        height: 100%;
+        width: 96%;
         font-size: 12px;
     }
     .text2{
-        width: 100%;
+        width: 96%;
+        font-size: 12px;
     }
     .sub2>:nth-child(3){
         margin-top: 16px;
