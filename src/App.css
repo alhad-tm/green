@@ -82,13 +82,14 @@ background: var(--primary-color, #228C22) !important;
   .swiper{
     width: 84% !important;
   }
-  .tobtn{
+  /* .tobtn{
     width: 20px;
     right: 0;
-  }
+  } */
   .tobtn2{
-    width: 20px;
+    width: 25px;
     right: 0;
+    bottom: 6px;
   }
 
 }

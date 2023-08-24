@@ -50,14 +50,14 @@ z-index: 5;
         display: flex;
         justify-content: space-between;
         /* width: 100%; */
-        padding: 2% 2%;
+        padding: 2% 8%;
         height: 33px;
     }
     .left{
-        margin-left: 0;
+        /* margin-left: 0; */
     }
     .left>img{
-        width: 155px;
+        width: 128px;
         height: 41px;
     }
 

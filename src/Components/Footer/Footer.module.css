@@ -87,4 +87,7 @@ line-height: 20px; /* 142.857% */
         justify-content: center;
         gap: 1.4rem;
     }
+    .div3right>:nth-child(1){
+        color: var(--grey-tone-g-7, #4C4C4C);
+    }
 }

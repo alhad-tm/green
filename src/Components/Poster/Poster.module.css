@@ -74,6 +74,6 @@ line-height: 32px; /* 160% */
 @media  screen and (min-width: 769px) and (max-width: 999px){
     .inside>:nth-child(2){
         font-size: 14px;
-        line-height: 14px;
+        line-height: 26px;
     }
 }
