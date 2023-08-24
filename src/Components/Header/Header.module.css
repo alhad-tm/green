@@ -17,8 +17,12 @@ z-index: 5;
 
 }
 .left{
-    margin-left: -1rem;
+    margin-left: -0.7rem;
    
+}
+.left>img{
+  height: 60px;
+
   
 }
 .right{
