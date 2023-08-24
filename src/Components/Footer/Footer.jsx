@@ -16,7 +16,7 @@ const Footer = () => {
 
 
         <ul className={css.div2list}>
-        <li><Link to="about" spy={true} smooth={true}>About</Link></li>
+        <li><Link to="about" spy={true} smooth={true}>About us</Link></li>
                 <li><Link to="services" spy={true} smooth={true}>Services</Link></li>
                 <li><Link to="contact" spy={true} smooth={true}>Contact</Link></li>
         {mobile?   <li>Privacy</li> :  <li>Privacy Policy</li>}

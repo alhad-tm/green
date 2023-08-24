@@ -179,16 +179,18 @@ z-index: 1;
         
     }
     .sub2>:nth-child(2){
-        margin-top: 1rem;
+        margin-top: 0;
     }
     .text{
         height: 100%;
-        width: 96%;
+        width: 90%;
         font-size: 12px;
+        padding: 0 5%;
     }
     .text2{
-        width: 96%;
+        width: 90%;
         font-size: 12px;
+        padding: 0 5%;
     }
     .sub2>:nth-child(3){
         margin-top: 16px;
@@ -211,6 +213,15 @@ z-index: 1;
     }
   
 }
+
+ @media screen and (min-width:425px) and (max-width:768px){
+    .sub2>:nth-child(2){
+        margin-top: 0.7rem;
+    }
+ }
+
+
+
 /* @media screen and (min-width:769px) and (max-width:1000px){
    
     .div2{
