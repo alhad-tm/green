@@ -29,9 +29,11 @@ const Footer = () => {
         <div className={css.div3}>
 
             <div className={css.div3left}>
-                <img src={Twitter} alt="" />
+             {/* <a href="https://twitter.com/invcs_in" target='blank'>  <img src={Twitter} alt="" /> </a>  */}
+             <img src={Twitter} alt="" /> 
                 <img src={Fb} alt="" />
                 <img src={Insta} alt="" />
+              {/* <a href="https://www.instagram.com/invicious.in/" target='blank'>  <img src={Insta} alt="" /> </a>  */}
             </div>
 
             <div className={css.div3right}>

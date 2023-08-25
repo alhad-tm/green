@@ -106,18 +106,18 @@ line-height: 32px; /* 200% */
     }
     .div2left>:nth-child(2){
        font-size: 12px;
-       line-height: 20px;
+       line-height: 22px;
        width: 60%;
     }
     .div2right>:nth-child(1){
         font-size: 14px;
         line-height: 32px;
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         
     }
     .div2right>:nth-child(2){
        font-size: 12px;
-       line-height: 20px;
+       line-height: 22px;
        width: 60%;
     }
 }

@@ -16,7 +16,7 @@ The Green Castle!</span>
           
         <div className={css.div2left}>
             <span >Contact us</span>
-            <span>Call +91 00000 00000 <br />or contact us via email 
+            <span>Call +91 88778 80101 <br />or contact us via email 
                 contact@thegreencastle.co.in</span>
           
 

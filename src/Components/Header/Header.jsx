@@ -3,6 +3,7 @@ import css from "./Header.module.css"
 import Logo1 from "../../assets/Green castel logo new.svg"
 import Bars from "../../assets/Bars.svg"
 import { Link } from 'react-scroll'
+import Close from "../../assets/close.png"
 const Header = () => {
   const mobile = window.innerWidth <= 768 ? true : false;
   const [menuOpened, setMenuOpened] = useState(false); 
@@ -24,7 +25,11 @@ const Header = () => {
           />
         </div>
       ) : (
-            <ul className={css.rightlist}>
+        <ul className={css.rightlist} onClick={()=>setMenuOpened(false)}>
+        {mobile? <div className={css.main}>
+          <div className={css.m1}> <img src={Logo1} alt="" />  </div>
+          <div className={css.m2}> <img src={Close} alt="" /></div>
+           </div>:""}
                 <li><Link to="about" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>About us</Link></li>
                 <li><Link to="services" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Services</Link></li>
                 <li><Link to="contact" onClick={()=>setMenuOpened(false)} spy={true} smooth={true}>Contact</Link></li>
