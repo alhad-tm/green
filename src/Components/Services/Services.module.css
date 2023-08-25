@@ -247,3 +247,20 @@ z-index: 1;
         top: 5px;
     }
 } */
+
+@media screen and (min-width:1100px) and (max-width:1250px){
+    .text{
+        line-height: 23px;
+    }
+    .text2{
+        line-height: 23px;
+    }
+}
+@media screen and (min-width:1250px) and (max-width:2500px){ 
+    .text{
+        line-height: 25px;
+    }
+    .text2{
+        line-height: 25px;
+    }
+}
